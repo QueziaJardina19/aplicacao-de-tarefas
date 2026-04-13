@@ -8,18 +8,20 @@ const TaskItem = ({ task }) => {
   return (
     <div style={{ border: '1px solid #ccc', padding: '10px', margin: '10px 0', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
       <div>
-        <h3 style={{ textDecoration: task.completed ? 'line-through' : 'none' }}>{task.title}</h3>
+        <h3 style={{ textDecoration: task.completed ? 'line-through' : 'none' }}>
+          {task.completed ? '🐾' : '🐱'} {task.title}
+        </h3>
         <p>{task.description}</p>
         <label>
           <input type="checkbox" checked={task.completed} onChange={() => toggleComplete(task.id)} />
-          Concluída
+          {task.completed ? '✅ Concluída' : '⏳ Pendente'}
         </label>
       </div>
       <div>
         <Link to={`/edit-task/${task.id}`}>
-          <button>Editar</button>
+          <button>✏️ Editar</button>
         </Link>
-        <button onClick={() => removeTask(task.id)} style={{ marginLeft: '10px', color: 'red' }}>Excluir</button>
+        <button onClick={() => removeTask(task.id)} style={{ marginLeft: '10px', color: 'red' }}>🗑️ Excluir</button>
       </div>
     </div>
   );

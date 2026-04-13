@@ -1,50 +1,64 @@
 <<<<<<< HEAD
-# Getting Started with Create React App
+# Aplicação de Tarefas de Gatinho 🐱
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Uma aplicação React fofa para gerenciar suas missões de gatinho! Adicione, edite e marque como concluídas suas tarefas com um tema adorável de gatos.
 
-## Available Scripts
+## Funcionalidades
 
-In the project directory, you can run:
+- 🐾 Adicionar novas missões de gatinho
+- ✏️ Editar missões existentes
+- ✅ Marcar missões como concluídas
+- 🗑️ Remover missões
+- 💾 Persistência local com localStorage
 
-### `npm start`
+## Como executar
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Pré-requisitos
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Node.js (versão 14 ou superior)
+- npm ou yarn
 
-### `npm test`
+### Instalação
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/QueziaJardina19/aplicacao-de-tarefas.git
+   cd aplicacao-de-tarefas
+   ```
 
-### `npm run build`
+2. Instale as dependências:
+   ```bash
+   npm install
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Execute a aplicação:
+   ```bash
+   npm start
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. Abra [http://localhost:3000](http://localhost:3000) no seu navegador.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Scripts disponíveis
 
-### `npm run eject`
+- `npm start`: Executa a aplicação em modo de desenvolvimento
+- `npm test`: Executa os testes
+- `npm run build`: Cria uma build de produção
+- `npm run eject`: Ejecta a configuração (irreversível)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Tecnologias utilizadas
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- React
+- React Router
+- CSS Modules
+- localStorage para persistência
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Contribuição
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Sinta-se à vontade para contribuir com mais funcionalidades fofas! 🐱💕
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Este projeto foi criado com [Create React App](https://github.com/facebook/create-react-app).
 
 ### Code Splitting
 

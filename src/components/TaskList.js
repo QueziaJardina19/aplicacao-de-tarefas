@@ -5,7 +5,7 @@ const TaskList = ({ tasks }) => {
   return (
     <div>
       {tasks.length === 0 ? (
-        <p>Nenhuma tarefa ainda. Adicione uma!</p>
+        <p>🐱 Nenhuma missão de gatinho ainda. Adicione uma nova aventura!</p>
       ) : (
         tasks.map(task => <TaskItem key={task.id} task={task} />)
       )}

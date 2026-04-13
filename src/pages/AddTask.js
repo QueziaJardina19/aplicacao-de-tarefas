@@ -14,9 +14,9 @@ const AddTask = () => {
 
   return (
     <div style={{ padding: '20px' }}>
-      <h1>Adicionar Nova Tarefa</h1>
+      <h1>🐱 Adicionar Nova Missão de Gatinho</h1>
       <TaskForm onSubmit={handleSubmit} />
-      <button onClick={() => navigate('/')} style={{ marginTop: '10px' }}>Cancelar</button>
+      <button onClick={() => navigate('/')} style={{ marginTop: '10px' }}>🏠 Voltar para Casa</button>
     </div>
   );
 };

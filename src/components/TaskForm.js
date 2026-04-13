@@ -26,21 +26,21 @@ const TaskForm = ({ initialTask, onSubmit }) => {
   return (
     <form className="task-form" onSubmit={handleSubmit}>
       <div className="form-group">
-        <label>Título:</label>
+        <label>🐱 Título da Missão:</label>
         <input
           type="text"
           value={title}
           onChange={(e) => setTitle(e.target.value)}
-          placeholder="Digite o título da tarefa"
+          placeholder="Digite o título da missão de gatinho"
           required
         />
       </div>
       <div className="form-group">
-        <label>Descrição:</label>
+        <label>📝 Descrição da Missão:</label>
         <textarea
           value={description}
           onChange={(e) => setDescription(e.target.value)}
-          placeholder="Descreva a tarefa"
+          placeholder="Descreva a missão de gatinho"
         />
       </div>
       <div className="form-group checkbox-field">
@@ -50,10 +50,10 @@ const TaskForm = ({ initialTask, onSubmit }) => {
           onChange={(e) => setCompleted(e.target.checked)}
           id="completed"
         />
-        <label htmlFor="completed">Concluída</label>
+        <label htmlFor="completed">✅ Missão Concluída</label>
       </div>
       <div className="button-row">
-        <button type="submit">Salvar Tarefa</button>
+        <button type="submit">💾 Salvar Missão</button>
       </div>
     </form>
   );

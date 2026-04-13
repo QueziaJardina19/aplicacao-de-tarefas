@@ -19,13 +19,13 @@ const EditTask = () => {
     navigate('/');
   };
 
-  if (!task) return <div>Carregando...</div>;
+  if (!task) return <div>🐱 Carregando missão...</div>;
 
   return (
     <div style={{ padding: '20px' }}>
-      <h1>Editar Tarefa</h1>
+      <h1>✏️ Editar Missão de Gatinho</h1>
       <TaskForm initialTask={task} onSubmit={handleSubmit} />
-      <button onClick={() => navigate('/')} style={{ marginTop: '10px' }}>Cancelar</button>
+      <button onClick={() => navigate('/')} style={{ marginTop: '10px' }}>🏠 Voltar para Casa</button>
     </div>
   );
 };

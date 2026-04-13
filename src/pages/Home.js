@@ -8,9 +8,9 @@ const Home = () => {
 
   return (
     <div style={{ padding: '20px' }}>
-      <h1>Gerenciador de Tarefas</h1>
+      <h1>Gerenciador de Missões de Gatinho 🐱</h1>
       <Link to="/add-task">
-        <button style={{ marginBottom: '20px' }}>Adicionar Nova Tarefa</button>
+        <button style={{ marginBottom: '20px' }}>🐾 Adicionar Nova Missão de Gatinho</button>
       </Link>
       <TaskList tasks={tasks} />
     </div>
