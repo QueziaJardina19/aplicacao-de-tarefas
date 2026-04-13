@@ -1,0 +1,96 @@
+.task-form {
+  max-width: 520px;
+  margin: 20px auto;
+  padding: 24px;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.08);
+}
+
+.task-form .form-group {
+  margin-bottom: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.task-form label {
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #1f2937;
+}
+
+.task-form input[type="text"],
+.task-form textarea {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid #d1d5db;
+  border-radius: 12px;
+  font-size: 1rem;
+  color: #111827;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.task-form input[type="text"]:focus,
+.task-form textarea:focus {
+  outline: none;
+  border-color: #2563eb;
+  box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.16);
+}
+
+.task-form textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.task-form .checkbox-field {
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.task-form .checkbox-field label {
+  margin: 0;
+  font-weight: 500;
+}
+
+.task-form input[type="checkbox"] {
+  width: auto;
+  accent-color: #2563eb;
+}
+
+.task-form .button-row {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 6px;
+}
+
+.task-form button {
+  padding: 12px 22px;
+  border: none;
+  border-radius: 12px;
+  background: #2563eb;
+  color: #ffffff;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.1s ease;
+}
+
+.task-form button:hover {
+  background: #1d4ed8;
+  transform: translateY(-1px);
+}
+
+.task-form button:active {
+  transform: translateY(0);
+}
+
+.task-form .secondary-button {
+  background: #f3f4f6;
+  color: #111827;
+}
+
+.task-form .secondary-button:hover {
+  background: #e5e7eb;
+}
